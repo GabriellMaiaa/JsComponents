@@ -22,4 +22,9 @@ console.log(contador)
 
 //ouuu
 
-contador+= passo;
+contador+= passo;// contador = contador + passo
+
+//Nan - Not a number. ParseInt faz conversão para inteiro, ParseFloat o deixa quebrado
+const n1 = 10
+const n2 ='5.1'
+console.log( n1 + n2)
