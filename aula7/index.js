@@ -9,9 +9,12 @@ console.log(n3.toFixed(2))
 let num1 = 0.7
 let num2 = 0.1
 
-num1 += num2
-num1 += num2
-num1 += num2
+num1 += num2// 0.8
+num1 += num2// 0.9
+num1 += num2// 1
+num1 += num2// 1.1
+num1 += num2// 1.2
+
 
 num1 = parseFloat(num1.toFixed(2))// O parseFloat e o Number resolvem o valor para ser inteiro
 console.log(Number.isInteger(num1))
