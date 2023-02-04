@@ -9,8 +9,16 @@ console.log(alunos)
 console.log(alunos.length)
 
 //Para adicionar elementos ao array usa-se o PUSH
-alunos.push = ('MAIA');
-console.log(alunos)
+//alunos.push = ('MAIA');
+//console.log(alunos)
 //Para adicionar no início usa-se o UNSHIFT
 alunos.unshift("FÁBIO");
 console.log(alunos)
+//Para remover, usa o POP
+const removidos = alunos.pop();
+console.log(alunos)
+console.log(removidos)// O SHIFT remove do início
+
+//Se eu quiser fatiar para aparecerem só os que eu quero, uso o SLICE
+console.log(alunos)
+console.log(alunos.slice(0, 3))
