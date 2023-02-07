@@ -24,7 +24,7 @@ const pessoa3 = {
     sobrenome: 'Ribeiro Maia',
     idade: 23,
 
-    fala(){
+    fala(){// Se bota dentro do objetop mesmo
         console.log(`O meu nome é ${this.nome} ${this.sobrenome}, e tenho ${this.idade}`)
     },
     aumentaIdade(){
