@@ -18,3 +18,22 @@ function criaObjetos (nome, sobrenome, idade) {
 }
 const pessoa2 = criaObjetos('Gabriel', 'Maia', 18);
 console.log(pessoa2)
+///////////////////////
+const pessoa3 = {
+    nome: 'Gabriel',
+    sobrenome: 'Ribeiro Maia',
+    idade: 23,
+
+    fala(){
+        console.log(`O meu nome é ${this.nome} ${this.sobrenome}, e tenho ${this.idade}`)
+    },
+    aumentaIdade(){
+        this.idade++//Vai adicionar mais um
+    }
+};
+pessoa3.fala();
+pessoa3.aumentaIdade()
+pessoa3.fala();
+pessoa3.aumentaIdade()
+pessoa3.fala();
+pessoa3.aumentaIdade()
