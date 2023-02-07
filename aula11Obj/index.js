@@ -8,3 +8,13 @@ const pessoa1 = {
     sobrenome: 'Castro'
 }
 console.log(pessoa1)
+//Função de criar objetos
+function criaObjetos (nome, sobrenome, idade) {
+    return {
+        nome: nome,
+        sobrenome: sobrenome,
+        idade: idade
+    }
+}
+const pessoa2 = criaObjetos('Gabriel', 'Maia', 18);
+console.log(pessoa2)
