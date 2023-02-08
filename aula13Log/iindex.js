@@ -16,3 +16,5 @@ const idade = 18;
 }
 const vaiLogar = nome == 'Gabriel Maia' && idade === 17;
 console.log(vaiLogar)
+
+console.log(!true)// Ele inverte o valor por ser de negação
