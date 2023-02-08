@@ -1,5 +1,6 @@
 //O if pode ser usado sozinho
 // O Else necessita de um if antes
+//Posso ter VÁRIOS Else IF, mas só um Else
 
 const hora = 29;
 if(hora >= 0 && hora <= 11) {// Hora entre 0 e 11h
