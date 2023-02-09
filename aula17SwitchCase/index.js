@@ -1,5 +1,5 @@
 const data = new Date();
-const diaSemana = data.getDay();
+const diaSemana = data.getDay();// Vai trazer o indice do dia
 let diaSemanaTexto;
 console.log(diaSemana)
 
