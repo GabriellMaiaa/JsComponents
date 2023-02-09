@@ -4,4 +4,11 @@ console.log(primeiro, segundo)
 console.log(resto)
 //Ouitras formas
 const [um, , tres, , cinco] = numeros;
-console.log(um, tres, cinco)
+console.log(um, tres, cinco);
+
+//Em relação a Arrays dentro de Arrays
+//                  0        1         2
+//              0  1  2   0  1  2
+const teste = [ [0, 1, 2], [3, 4, 5] ,[6, 7, 8] ];
+// Chame o número 7 na destruturação
+console.log(teste[2][0])
