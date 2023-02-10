@@ -11,4 +11,4 @@ console.log(um, tres, cinco);
 //              0  1  2   0  1  2
 const teste = [ [0, 1, 2], [3, 4, 5] ,[6, 7, 8] ];
 // Chame o número 7 na destruturação
-console.log(teste[2][0])
+console.log(teste[2][1])
