@@ -20,3 +20,7 @@ for (let i in pessoa) {
     console.log(pessoa[i])// Com objetos é da mesma forma
 }// Se quiser acessar somente o nome da opção, basta deixar só o I
 console.log(pessoa.nome)
+
+for (let argumento in pessoa) {// Quando você quer mesclar e chamar o argumento e o conteúdo
+    console.log(argumento, pessoa[argumento])
+}
