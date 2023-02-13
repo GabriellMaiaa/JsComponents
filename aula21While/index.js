@@ -5,7 +5,7 @@ while (i <= 10) {
     i++; // Se não tiver o i++ o laço vai ser infinito
 }
 
-function aleatorio(min, max) {// Gera um número aleatório
+function random(min, max) {// Gera um número aleatório
     const r = Math.random() * (max - min) + min;
     return Math.floor(r)
 }
