@@ -8,7 +8,13 @@ try {// É executada quando não há erros
 }
 
 function retornaHora(data) {
-    if(!(data instanceof Date)) {// Se for algo diferente da instância de uma DATA
-        console.log('   Não é')
+    if(data && ! (data instanceof Date)) {// Se for algo diferente da instância de uma DATA
+        throw new TypeError('Esperando instância de Date')
     }
+    if(!data) {
+        data = new Date();
+    }
+    return data.toLocaleTimeString('pt-BR')
 }
+const hora = retornaHora();
+console.log(hora)
