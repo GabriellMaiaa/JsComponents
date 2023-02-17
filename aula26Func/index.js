@@ -15,3 +15,8 @@ teste(1,2,3,4,5,6)//Esses valores são salvos no argumento
 function conta(operador, acumulador, ...numeros) {// Rest Operator- Tudo depois fica
     console.log(operador, acumulador, numeros);// dentro do Array
 }
+
+function duplica(n) {
+    return n * 2
+}
+console.log(duplica(4))
